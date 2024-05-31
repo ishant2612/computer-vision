@@ -25,8 +25,8 @@ This module contains the handDetector class that utilizes MediaPipe to detect ha
 
 To run the handdetectorModule.py independently and see hand detection in action:
 
-```sh
 Copy code
+```sh
 python handdetectorModule.py
 volumeControl.py
 ```
@@ -40,8 +40,8 @@ Adjusts the system volume using Pycaw based on the distance.
 Running the Script
 To run the volumeControl.py script:
 
-```sh
 Copy code
+```sh
 python volumeControl.py
 ```
 ##Usage
@@ -50,8 +50,9 @@ Hand Detection:
 Run handdetectorModule.py to see the real-time hand detection. Adjust the camera if needed.
 Hand landmarks will be displayed on the screen along with the FPS (Frames Per Second).
 Volume Control:
-
+```sh
 Run volumeControl.py.
+```
 Use your thumb and index finger to control the volume. The distance between these fingers will determine the volume level.
 Ensure the webcam is functioning and properly positioned to capture your hand movements.
 ###Notes
