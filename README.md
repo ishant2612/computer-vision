@@ -44,7 +44,7 @@ Copy code
 ```sh
 python volumeControl.py
 ```
-##Usage
+## Usage
 Hand Detection:
 
 Run handdetectorModule.py to see the real-time hand detection. Adjust the camera if needed.
@@ -55,6 +55,6 @@ Run volumeControl.py.
 ```
 Use your thumb and index finger to control the volume. The distance between these fingers will determine the volume level.
 Ensure the webcam is functioning and properly positioned to capture your hand movements.
-###Notes
+### Notes
 Ensure that your environment has good lighting for better hand detection accuracy.
 The default camera index in volumeControl.py is set to 1. If you have only one webcam, change cv2.VideoCapture(1) to cv2.VideoCapture(0).
